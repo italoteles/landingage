@@ -1,3 +1,30 @@
 /* You can add global styles to this file, and also import other style files */
 @import "./node_modules/bootstrap/scss/bootstrap";
 @import "~bootstrap-icons/font/bootstrap-icons.css";
+
+:root{
+  --dark-purple: #24053E;
+  --eucaplyptus: #44FFA1;
+  --davys-grey: #584D62;
+  --ghost-white: #FCF8FF;
+  --white: #FFF;
+
+}
+
+@font-face {
+  font-family: 'fraunces';
+  src: url('./assets/fonts/fraunces/Fraunces-VariableFont_SOFT,WONK,opsz,wght.ttf');
+}
+@font-face {
+  font-family: 'manrope';
+  src: url('./assets/fonts/manrope/Manrope-VariableFont_wght.ttf');
+}
+
+body{
+  font-family: Manrope;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;;
+}
+
