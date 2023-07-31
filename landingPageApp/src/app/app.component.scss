@@ -1,5 +1,15 @@
-.teste{
-  //background-color: var(--davys-grey)
-  font-family: fraunces;
-  font-size: 100px;
+.background {
+  position: absolute;
+  z-index: -1;
+
+}
+
+.row{
+  --bs-gutter-x:0;
+}
+
+#celphone{
+  position: absolute;
+  top: 454px;
+  left: 368px;
 }
