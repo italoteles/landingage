@@ -1,6 +1,14 @@
-.background {
-  position: absolute;
-  z-index: -1;
+.background-purple{
+  background-image: url( '../assets/images/Rectangle-purple.svg' );
+  background-repeat: no-repeat;
+  background-color: #FCF8FF;
+
+}
+
+
+.background-grey {
+  background-image: url( '../assets/images/Rectangle-grey.svg' );
+  background-repeat: no-repeat;
 
 }
 
