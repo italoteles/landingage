@@ -17,8 +17,96 @@
   --bs-gutter-x:0;
 }
 
+.apply-access{
+  color: var(--white);
+  font-family: Manrope;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: -0.18px;
+
+  // text-decoration: underline var(--eucaplyptus);
+  // text-decoration-thickness: 4px;
+}
+.apply-access::before{
+    content: "";
+    position: absolute;
+    top: 80px;
+    width: 140px;
+    height: 3px;
+    border-bottom: 2px;
+    border-style: solid;
+    border-color: var(--eucaplyptus);
+
+}
+
+.number{
+  border: 1px solid ;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  //margin-left: 40%;
+  color: var(--dark-purple);
+  font-family: Fraunces 144pt;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 40px;
+
+}
+
 #celphone{
   position: absolute;
   top: 454px;
   left: 368px;
+}
+
+.info{
+  position: absolute;
+  top: 200px;
+  right: 100px;
+  background-color: var(--dark-purple);
+  color: var(--white);
+}
+
+.heading-m{
+  font-family: Fraunces;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 64px;
+}
+.heading-l{
+  font-family: Fraunces;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 80px;
+}
+
+.heading-news{
+  color: var(--dark-purple);
+  text-align: center;
+  font-family: Fraunces;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 40px;
+  padding-bottom: 28px;
+}
+
+@media (max-width: 767px) {
+  .info{
+    position: absolute;
+    top: 400px;
+    right: 20%;
+    background-color: var(--dark-purple);
+    color: var(--white);
+  }
+  #image-founder{
+    position: absolute;
+    top: 50px;
+    right: 30%;
+  }
 }
