@@ -198,6 +198,10 @@
   transition: 0.5s;
 }
 
+.action__text-pattern{
+  display: none;
+}
+
 .footer{
   margin-top: 74px;
   display: flex;
@@ -296,6 +300,17 @@
     margin-left: auto ;
     margin-right:25px;
     margin-left:200px;
+    position: relative;
+
+  }
+
+  .action__text-pattern{
+    display: inline;
+    position: absolute;
+    width: 173px;
+    height: 137px;
+    right: -10px;
+    bottom: -65px;
 
   }
 
@@ -399,10 +414,15 @@
 
   }
 
+  .action__text-pattern{
+    display: inline;
+    position: absolute;
+    width: 193px;
+    height: 157px;
+    right: 90px;
+    bottom: -50px;
 
-
-
-
+  }
 
 
   .footer{
