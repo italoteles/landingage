@@ -86,6 +86,13 @@
   margin-top: 51px;
 }
 
+.header-content__btn-learn-more:hover{
+  background-color: var(--dark-purple);
+  color: var(--eucaplyptus);
+  border: solid 1px var(--ghost-white);
+  transition: 0.5s;
+}
+
 .header-curve {
   // border: 2px solid red;
   background-color: var(--dark-purple);
@@ -150,8 +157,71 @@
 }
 
 .action{
-  height: 100px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
 }
+
+
+.action__founder-img{
+  width: 265px;
+  height: 267px;
+  z-index: -1;
+}
+
+.action__text{
+  margin-top: -50px;
+  background-color: var(--dark-purple);
+  color: var(--white);
+  text-align: center;
+  padding: 16px;
+
+}
+
+.action__button{
+  background-color: var(--eucaplyptus);
+  color: var(--dark-purple);
+  width: 172px;
+  height: 55px;
+  border: none;
+  font-weight: 700;
+  cursor: pointer;
+  margin: auto;
+  margin-top: 24px;
+}
+.action__button:hover{
+  background-color: var(--dark-purple);
+  color: var(--eucaplyptus);
+  border: solid 1px var(--ghost-white);
+  transition: 0.5s;
+}
+
+.footer{
+  margin-top: 74px;
+  display: flex;
+  flex-direction: column;
+
+
+}
+
+.footer__brand{
+  display: flex;
+  justify-content: center;
+}
+
+.footer__social-media{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 70px;
+  margin-left: 120px;
+  margin-right: 120px;
+  margin-bottom: 50px;
+
+
+}
+
 //TABLET---------------------------------------------------------------------------
 @media (min-width: 768px) {
   .heading-l{
@@ -211,7 +281,33 @@
 
   }
 
+  .action{
 
+    align-items: start;
+    margin-right: 70px;
+
+  }
+
+  .action__text{
+    margin-top: -100px;
+    min-width: 514px;
+    text-align: left;
+    padding: 16px;
+    margin-left: auto ;
+    margin-right:25px;
+    margin-left:200px;
+
+  }
+
+  .footer__social-media{
+
+    margin-top: 80px;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-bottom: 50px;
+
+
+  }
 
 
 
@@ -263,13 +359,63 @@
     padding: 50px 100px 50px 100px;
   }
 
+  .content__cards-container{
+    max-width: 1120px;
+    display: flex;
+    margin: auto;
+  }
+
   .content__card{
     flex-direction: column;
-
+    padding: 30px;
   }
 
   .content__number{
     margin: auto;
     margin-bottom: 25px;
+  }
+
+
+
+  .action{
+    margin-top: 100px;
+  }
+
+
+
+
+  .action__founder-img{
+    width: 450px;
+    height: 453px;
+    z-index: -1;
+
+  }
+
+  .action__text{
+    margin-top: -150px;
+    width: 730px;
+    height: 413px;
+    padding: 64px;
+
+  }
+
+
+
+
+
+
+
+  .footer{
+    margin-top: 121px;
+  }
+
+  .footer__social-media{
+
+    margin-top: 80px;
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-bottom: 50px;
+
+
   }
 }
