@@ -19,7 +19,11 @@
   font-family: 'manrope';
   src: url('./assets/fonts/manrope/Manrope-VariableFont_wght.ttf');
 }
-
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
 body{
   font-family: Manrope;
   font-size: 16px;
@@ -28,7 +32,7 @@ body{
   line-height: 28px;;
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) {
   body{
     font-family: Manrope;
     font-size: 18px;
@@ -37,3 +41,4 @@ body{
     line-height: 32px;;
   }
 }
+

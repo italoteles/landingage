@@ -1,0 +1,196 @@
+//MOBILE---------------------------------------------------------------------------
+.container{
+  padding: 0 16px 0 16px;
+}
+.heading-l{
+  font-family: Fraunces;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 50px;
+}
+.heading-m{
+  font-family: Fraunces;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 48px;
+}
+.heading-s{
+  font-family: Fraunces;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 36px;
+}
+
+.header{
+  background-color: var(--dark-purple);
+  position: relative;
+  overflow: hidden;
+}
+
+.header__pattern1{
+  display: none;
+}
+.header__pattern2{
+  display: none;
+}
+
+
+.header-top{
+  display: flex;
+  justify-content: space-between;
+  padding-top:32px;
+  padding-bottom: 66px;
+
+}
+.header-top__access{
+  color: var(--white);
+  font-weight: 700;
+  text-decoration: none;
+  border-bottom: solid 2px var(--eucaplyptus);
+
+}
+
+.header-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 115px;
+}
+
+.header-content__title{
+  color: var(--white);
+  text-align: center;
+
+}
+
+.header-content__underline{
+  text-decoration-line: underline;
+  text-decoration-color: var(--eucaplyptus);
+
+
+}
+
+
+.header-content__btn-learn-more{
+  background-color: var(--eucaplyptus);
+  color: var(--dark-purple);
+  width: 133px;
+  height: 55px;
+  border: none;
+  font-weight: 700;
+  cursor: pointer;
+  margin: auto;
+  margin-top: 51px;
+}
+
+.header-curve {
+  // border: 2px solid red;
+  background-color: var(--dark-purple);
+  height: 32px;
+  border-radius: 0% 0% 100% 100%;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-top: -1px;
+}
+
+.header__img-container{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  min-height: 150px;
+}
+.header__img-celphone{
+  position: absolute;
+  width: 298px;
+  height: 178px;
+  bottom: 65px;
+}
+
+//TABLET---------------------------------------------------------------------------
+@media (min-width: 768px) {
+  .heading-l{
+    font-size: 60px;
+    line-height: 60px;
+  }
+  .heading-m{
+    font-size: 48px;
+    line-height: 56px;
+  }
+  .heading-s{
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  .header__pattern1{
+    display: block;
+    position: absolute;
+    left: -210px;
+    top: 80px
+  }
+  .header__pattern2{
+    display: block;
+    position: absolute;
+    right: -60px;
+    top: 300px
+  }
+
+  .header-content{
+    padding-bottom: 163px;
+  }
+
+  .header-content__title{
+    color: var(--white);
+    text-align: center;
+    padding: 0px 98px 0px 97px;
+
+  }
+
+  .header__img-celphone{
+    width: 479px;
+    height: 286px;
+    bottom: 0px;
+  }
+
+}
+
+//DESKTOP---------------------------------------------------------------------------
+@media (min-width: 1440px) {
+  .heading-l{
+    font-size: 80px;
+    line-height: 80px;
+  }
+  .heading-m{
+    font-size: 56px;
+    line-height: 64px;
+  }
+  .heading-s{
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  .container {
+    max-width: 1150px;
+    margin: auto;
+  }
+
+  .header__pattern1{
+    left: -150px;
+
+  }
+  .header__pattern2{
+    right: -70px;
+  }
+
+  .header-content{
+    padding-bottom: 300px;
+  }
+
+
+  .header__img-celphone{
+    width: 715px;
+    height: 427px;
+
+  }
+}
