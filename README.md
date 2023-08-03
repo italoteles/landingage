@@ -1,2 +1,2 @@
 # landingage
-Landing Page - Angular + HTML + CSS 
+Landing Page - HTML + CSS, I did it using Angular architecture just for practice. 
